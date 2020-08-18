@@ -67,8 +67,8 @@ def parseRequiredData(apiResponseData):
 def constuctGraphs(parsedData):
     try:
         # specifying graph blocks
-        done_block = '▓'
-        empty_block = '▒'
+        done_block = '⚫'
+        empty_block = '⚪'
 
         # dicts to hold the graph strings
         langGraphStrings = {}
